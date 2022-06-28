@@ -1,0 +1,24 @@
+class Cat:species='mammal'
+def__init__(self,name,age)
+self.name=name
+self.age=age
+Cat1=Cat('Haru',4)
+Cat2=Cat('Wiskers',13)
+Cat3=Cat('Goose',10)
+def Oldest():age={Cat1.age,Cat2.age,Cat3.age}
+oldest=max(age)
+return (f'The oldest catis{older} years old')
+print(Oldest())
+
+
+
+    NameError                                 Traceback (most recent call last)
+Input In [8], in <cell line: 2>()
+      1 class Cat:species='mammal'
+----> 2 def__init__(self,name,age)
+      3 self.name=name
+      4 self.age=age
+
+NameError: name 'def__init__' is not defined
+
+​
